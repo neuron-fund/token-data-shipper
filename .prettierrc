@@ -1,0 +1,9 @@
+{
+  "arrowParens": "avoid",
+  "importOrder": ["^#", "^[./]"],
+  "importOrderSeparation": true,
+  "importOrderSortSpecifiers": true,
+  "printWidth": 90,
+  "semi": false,
+  "singleQuote": true
+}
