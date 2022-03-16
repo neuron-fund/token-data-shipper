@@ -10,10 +10,14 @@
   },
   "main": "dist/index.js",
   "name": "token-data-shipper",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/neuron-fund/token-data-shipper.git"
+  },
   "scripts": {
     "build": "rm -rf dist && tsc",
     "prepare": "rm -rf dist && tsc"
   },
   "types": "dist/index.d.ts",
-  "version": "1.0.1"
+  "version": "1.0.2"
 }
