@@ -1,4 +1,4 @@
-import { ChainId } from '../constants'
+import { ChainId } from '@sushiswap/sdk'
 
 export type Token = {
   address: string

@@ -16,5 +16,8 @@
     "prepare": "rm -rf dist && tsc"
   },
   "types": "dist/index.d.ts",
-  "version": "1.0.5"
+  "version": "1.0.6",
+  "dependencies": {
+    "@sushiswap/sdk": "5.0.0-canary.116"
+  }
 }
