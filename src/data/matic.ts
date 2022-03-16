@@ -1,5 +1,4 @@
-import { ChainId } from '@sushiswap/sdk'
-
+import { ChainId } from '../constants'
 import { Token } from '../types'
 import { assetsPath } from './helpers'
 

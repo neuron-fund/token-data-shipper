@@ -1,5 +1,4 @@
-import { ChainId } from '@sushiswap/sdk'
-
+import { ChainId } from './constants'
 import { mainnetTokens, maticTokens } from './data'
 import { Token } from './types'
 

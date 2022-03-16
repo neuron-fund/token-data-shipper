@@ -1,7 +1,4 @@
 {
-  "dependencies": {
-    "@sushiswap/sdk": "5.0.0-canary.116"
-  },
   "devDependencies": {
     "@trivago/prettier-plugin-sort-imports": "3.2.0",
     "@typescript-eslint/parser": "5.14.0",
@@ -19,5 +16,5 @@
     "prepare": "rm -rf dist && tsc"
   },
   "types": "dist/index.d.ts",
-  "version": "1.0.2"
+  "version": "1.0.3"
 }
