@@ -1,2 +1,2 @@
 export const assetsPath =
-  'https://raw.githubusercontent.com/aleksandr-kiliushin/token-data-shipper/master/assets'
+  'https://raw.githubusercontent.com/neuron-fund/token-data-shipper/master/assets'
