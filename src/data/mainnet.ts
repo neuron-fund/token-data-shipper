@@ -71,8 +71,8 @@ const mainnetTokens: Token[] = [
     name: 'USDT',
   },
   {
-    chainId: ChainId.MAINNET,
     address: '0x2260FAC5E5542a773Aa44fBCfeDf7C193bc2C599',
+    chainId: ChainId.MAINNET,
     logoUrl: assetsPath + '/mainnet-tokens/wbtc.svg',
     name: 'WBTC',
   },
