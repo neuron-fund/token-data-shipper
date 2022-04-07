@@ -5,8 +5,7 @@
     "eslint": "8.11.0",
     "typescript": "4.6.3"
   },
-  "main": "dist/main.js",
-  "module": "dist/module.js",
+  "main": "dist/index.js",
   "name": "token-data-shipper",
   "repository": {
     "type": "git",
@@ -20,5 +19,5 @@
   },
   "source": "src/index.ts",
   "types": "dist/index.d.ts",
-  "version": "1.0.14"
+  "version": "1.0.15"
 }
