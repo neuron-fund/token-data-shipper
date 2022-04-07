@@ -1,4 +1,4 @@
-import { ChainId } from '#constants'
+import { ChainId } from '../constants'
 
 type TokenData = {
   address: string
