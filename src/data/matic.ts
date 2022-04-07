@@ -1,5 +1,6 @@
+import { TokenData } from '#types'
+
 import { ChainId } from '../constants'
-import { TokenData } from '../types'
 import { assetsPath } from './helpers'
 
 const mainnetTokens: TokenData[] = [

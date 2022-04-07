@@ -1,6 +1,7 @@
+import { TokenData } from '#types'
+
 import { ChainId } from '../constants'
 import { mainnetTokens, maticTokens } from '../data'
-import { TokenData } from '../types'
 
 const getTokenData = ({
   chainId,
