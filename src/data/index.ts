@@ -1,2 +1,1 @@
-export { default as mainnetTokens } from './mainnet'
-export { default as maticTokens } from './matic'
+export { default as tokenData } from './tokenData'
