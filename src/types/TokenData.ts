@@ -1,8 +1,10 @@
 import { ChainId } from '@sushiswap/sdk'
 
-export type Token = {
+type TokenData = {
   address: string
   chainId: ChainId
-  logoUrl: string
+  logoUrl: string | null
   name: string
 }
+
+export default TokenData

@@ -16,8 +16,10 @@
   },
   "scripts": {
     "build": "rm -rf dist && tsc",
+    "check-types": "tsc --noEmit",
+    "dev": "rm -rf dist && tsc -w",
     "prepare": "rm -rf dist && tsc"
   },
   "types": "dist/index.d.ts",
-  "version": "1.0.8"
+  "version": "1.0.9"
 }

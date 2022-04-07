@@ -1,7 +1,7 @@
 import { ChainId } from '@sushiswap/sdk'
 
 import { mainnetTokens, maticTokens } from './data'
-import { Token } from './types'
+import { TokenData } from './types'
 
 const getTokenData = ({
   chainId,
@@ -9,8 +9,8 @@ const getTokenData = ({
 }: {
   chainId: ChainId
   tokenAddress: string
-}): Token | undefined => {
-  const findTokenCallback = ({ address }: Token) => {
+}): TokenData | undefined => {
+  const findTokenCallback = ({ address }: TokenData) => {
     return address.toLowerCase() === tokenAddress.toLowerCase()
   }
 

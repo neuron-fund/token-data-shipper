@@ -1,9 +1,15 @@
 import { ChainId } from '@sushiswap/sdk'
 
-import { Token } from '../types'
+import { TokenData } from '../types'
 import { assetsPath } from './helpers'
 
-const mainnetTokens: Token[] = [
+const mainnetTokens: TokenData[] = [
+  {
+    address: '0x111111111117dC0aa78b770fA6A738034120C302',
+    chainId: ChainId.MAINNET,
+    logoUrl: null,
+    name: '1INCH',
+  },
   {
     address: '0xdBdb4d16EdA451D0503b854CF79D55697F90c8DF',
     chainId: ChainId.MAINNET,

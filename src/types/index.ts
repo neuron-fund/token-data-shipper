@@ -1,1 +1,1 @@
-export type { Token } from './token'
+export type { default as TokenData } from './TokenData'

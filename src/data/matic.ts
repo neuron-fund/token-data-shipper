@@ -1,9 +1,9 @@
 import { ChainId } from '@sushiswap/sdk'
 
-import { Token } from '../types'
+import { TokenData } from '../types'
 import { assetsPath } from './helpers'
 
-const mainnetTokens: Token[] = [
+const mainnetTokens: TokenData[] = [
   {
     address: '0x2791Bca1f2de4661ED88A30C99A7a9449Aa84174',
     chainId: ChainId.MATIC,
