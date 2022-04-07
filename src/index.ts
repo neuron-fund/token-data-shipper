@@ -1,4 +1,4 @@
-export { default as getTokenData } from './utils/getTokenData'
+export { getTokenData } from './utils'
 
 export { ChainId } from './constants'
 

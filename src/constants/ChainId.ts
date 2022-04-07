@@ -1,4 +1,4 @@
-const enum ChainId {
+enum ChainId {
   MAINNET = 1,
   MATIC = 137,
 }
