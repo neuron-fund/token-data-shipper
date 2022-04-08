@@ -1,6 +1,6 @@
-import ChainId from './ChainId'
+import ChainId from '../constants/ChainId'
 
-const TokenAddress = {
+const tokenAddresses = {
   [ChainId.MAINNET]: {
     ONE_INCH: '0x111111111117dC0aa78b770fA6A738034120C302',
     ALCHEMIX: '0xdBdb4d16EdA451D0503b854CF79D55697F90c8DF',
@@ -37,4 +37,4 @@ const TokenAddress = {
   },
 }
 
-export default TokenAddress
+export default tokenAddresses
