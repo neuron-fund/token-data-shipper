@@ -6,12 +6,6 @@ const tokenIconsPath =
 
 const tokenDataByAddress = {
   // MAINNET
-  [tokenAddresses[ChainId.MAINNET].ONE_INCH]: {
-    address: tokenAddresses[ChainId.MAINNET].ONE_INCH,
-    chainId: ChainId.MAINNET,
-    logoUrl: null,
-    name: '1INCH',
-  },
   [tokenAddresses[ChainId.MAINNET].ALCHEMIX]: {
     address: tokenAddresses[ChainId.MAINNET].ALCHEMIX,
     chainId: ChainId.MAINNET,
@@ -53,6 +47,12 @@ const tokenDataByAddress = {
     chainId: ChainId.MAINNET,
     logoUrl: tokenIconsPath + '/neur.svg',
     name: 'NEUR',
+  },
+  [tokenAddresses[ChainId.MAINNET].ONE_INCH]: {
+    address: tokenAddresses[ChainId.MAINNET].ONE_INCH,
+    chainId: ChainId.MAINNET,
+    logoUrl: tokenIconsPath + '/1inch.svh',
+    name: '1INCH',
   },
   [tokenAddresses[ChainId.MAINNET].PICKLE]: {
     address: tokenAddresses[ChainId.MAINNET].PICKLE,
@@ -103,12 +103,6 @@ const tokenDataByAddress = {
     name: 'WETH',
   },
   // MATIC
-  [tokenAddresses[ChainId.MATIC].ONE_INCH]: {
-    address: tokenAddresses[ChainId.MATIC].ONE_INCH,
-    chainId: ChainId.MATIC,
-    logoUrl: null,
-    name: '1INCH',
-  },
   [tokenAddresses[ChainId.MATIC].ALCHEMIX]: {
     address: tokenAddresses[ChainId.MATIC].ALCHEMIX,
     chainId: ChainId.MATIC,
@@ -150,6 +144,12 @@ const tokenDataByAddress = {
     chainId: ChainId.MATIC,
     logoUrl: tokenIconsPath + '/neur.svg',
     name: 'NEUR',
+  },
+  [tokenAddresses[ChainId.MATIC].ONE_INCH]: {
+    address: tokenAddresses[ChainId.MATIC].ONE_INCH,
+    chainId: ChainId.MATIC,
+    logoUrl: tokenIconsPath + '/1inch.svg',
+    name: '1INCH',
   },
   [tokenAddresses[ChainId.MATIC].PICKLE]: {
     address: tokenAddresses[ChainId.MATIC].PICKLE,
