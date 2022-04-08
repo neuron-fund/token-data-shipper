@@ -51,7 +51,7 @@ const tokenDataByAddress = {
   [tokenAddresses[ChainId.MAINNET].ONE_INCH]: {
     address: tokenAddresses[ChainId.MAINNET].ONE_INCH,
     chainId: ChainId.MAINNET,
-    logoUrl: tokenIconsPath + '/1inch.svh',
+    logoUrl: tokenIconsPath + '/1inch.svg',
     name: '1INCH',
   },
   [tokenAddresses[ChainId.MAINNET].PICKLE]: {
