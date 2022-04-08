@@ -45,7 +45,7 @@ const tokenDataByAddress = {
   [tokenAddresses[ChainId.MAINNET].NEAR]: {
     address: tokenAddresses[ChainId.MAINNET].NEAR,
     chainId: ChainId.MAINNET,
-    logoUrl: null,
+    logoUrl: assetsPath + '/near.svg',
     name: 'NEAR',
   },
   [tokenAddresses[ChainId.MAINNET].PICKLE]: {
