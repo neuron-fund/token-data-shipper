@@ -1,7 +1,7 @@
 import { ChainId } from '../constants'
 import tokenAddresses from '../data/tokenAddresses'
 
-const assetsPath =
+const tokenIconsPath =
   'https://raw.githubusercontent.com/neuron-fund/token-data-shipper/v1/assets/token-icons'
 
 const tokenDataByAddress = {
@@ -15,85 +15,91 @@ const tokenDataByAddress = {
   [tokenAddresses[ChainId.MAINNET].ALCHEMIX]: {
     address: tokenAddresses[ChainId.MAINNET].ALCHEMIX,
     chainId: ChainId.MAINNET,
-    logoUrl: assetsPath + '/alchemix.svg',
+    logoUrl: tokenIconsPath + '/alchemix.svg',
     name: 'Alchemix',
   },
   [tokenAddresses[ChainId.MAINNET].CONVEX]: {
     address: tokenAddresses[ChainId.MAINNET].CONVEX,
     chainId: ChainId.MAINNET,
-    logoUrl: assetsPath + '/convex.svg',
+    logoUrl: tokenIconsPath + '/convex.svg',
     name: 'Convex',
   },
   [tokenAddresses[ChainId.MAINNET].DAI]: {
     address: tokenAddresses[ChainId.MAINNET].DAI,
     chainId: ChainId.MAINNET,
-    logoUrl: assetsPath + '/dai.svg',
+    logoUrl: tokenIconsPath + '/dai.svg',
     name: 'DAI',
   },
   [tokenAddresses[ChainId.MAINNET].ETH]: {
     address: tokenAddresses[ChainId.MAINNET].ETH,
     chainId: ChainId.MAINNET,
-    logoUrl: assetsPath + '/eth.svg',
+    logoUrl: tokenIconsPath + '/eth.svg',
     name: 'ETH',
   },
   [tokenAddresses[ChainId.MAINNET].FEI_USD]: {
     address: tokenAddresses[ChainId.MAINNET].FEI_USD,
     chainId: ChainId.MAINNET,
-    logoUrl: assetsPath + '/fei-usd.svg',
+    logoUrl: tokenIconsPath + '/fei-usd.svg',
     name: 'Fei USD',
   },
   [tokenAddresses[ChainId.MAINNET].NEAR]: {
     address: tokenAddresses[ChainId.MAINNET].NEAR,
     chainId: ChainId.MAINNET,
-    logoUrl: assetsPath + '/near.svg',
+    logoUrl: tokenIconsPath + '/near.svg',
     name: 'NEAR',
+  },
+  [tokenAddresses[ChainId.MAINNET].NEUR]: {
+    address: tokenAddresses[ChainId.MAINNET].NEUR,
+    chainId: ChainId.MAINNET,
+    logoUrl: tokenIconsPath + '/neur.svg',
+    name: 'NEUR',
   },
   [tokenAddresses[ChainId.MAINNET].PICKLE]: {
     address: tokenAddresses[ChainId.MAINNET].PICKLE,
     chainId: ChainId.MAINNET,
-    logoUrl: assetsPath + '/pickle.svg',
+    logoUrl: tokenIconsPath + '/pickle.svg',
     name: 'Pickle',
   },
   [tokenAddresses[ChainId.MAINNET].REN_BTC]: {
     address: tokenAddresses[ChainId.MAINNET].REN_BTC,
     chainId: ChainId.MAINNET,
-    logoUrl: assetsPath + '/renbtc.svg',
+    logoUrl: tokenIconsPath + '/renbtc.svg',
     name: 'renBTC',
   },
   [tokenAddresses[ChainId.MAINNET].ST_ETH]: {
     address: tokenAddresses[ChainId.MAINNET].ST_ETH,
     chainId: ChainId.MAINNET,
-    logoUrl: assetsPath + '/stake-ether.svg',
+    logoUrl: tokenIconsPath + '/stake-ether.svg',
     name: 'stETH',
   },
   [tokenAddresses[ChainId.MAINNET].TRIBE]: {
     address: tokenAddresses[ChainId.MAINNET].TRIBE,
     chainId: ChainId.MAINNET,
-    logoUrl: assetsPath + '/tribe.svg',
+    logoUrl: tokenIconsPath + '/tribe.svg',
     name: 'Tribe',
   },
   [tokenAddresses[ChainId.MAINNET].USDC]: {
     address: tokenAddresses[ChainId.MAINNET].USDC,
     chainId: ChainId.MAINNET,
-    logoUrl: assetsPath + '/usdc.svg',
+    logoUrl: tokenIconsPath + '/usdc.svg',
     name: 'USDC',
   },
   [tokenAddresses[ChainId.MAINNET].USDT]: {
     address: tokenAddresses[ChainId.MAINNET].USDT,
     chainId: ChainId.MAINNET,
-    logoUrl: assetsPath + '/usdt.svg',
+    logoUrl: tokenIconsPath + '/usdt.svg',
     name: 'USDT',
   },
   [tokenAddresses[ChainId.MAINNET].WBTC]: {
     address: tokenAddresses[ChainId.MAINNET].WBTC,
     chainId: ChainId.MAINNET,
-    logoUrl: assetsPath + '/wbtc.svg',
+    logoUrl: tokenIconsPath + '/wbtc.svg',
     name: 'WBTC',
   },
   [tokenAddresses[ChainId.MAINNET].WETH]: {
     address: tokenAddresses[ChainId.MAINNET].WETH,
     chainId: ChainId.MAINNET,
-    logoUrl: assetsPath + '/weth.svg',
+    logoUrl: tokenIconsPath + '/weth.svg',
     name: 'WETH',
   },
   // MATIC
@@ -106,31 +112,31 @@ const tokenDataByAddress = {
   [tokenAddresses[ChainId.MATIC].ALCHEMIX]: {
     address: tokenAddresses[ChainId.MATIC].ALCHEMIX,
     chainId: ChainId.MATIC,
-    logoUrl: assetsPath + '/alchemix.svg',
+    logoUrl: tokenIconsPath + '/alchemix.svg',
     name: 'Alchemix',
   },
   [tokenAddresses[ChainId.MATIC].CONVEX]: {
     address: tokenAddresses[ChainId.MATIC].CONVEX,
     chainId: ChainId.MATIC,
-    logoUrl: assetsPath + '/convex.svg',
+    logoUrl: tokenIconsPath + '/convex.svg',
     name: 'Convex',
   },
   [tokenAddresses[ChainId.MATIC].DAI]: {
     address: tokenAddresses[ChainId.MATIC].DAI,
     chainId: ChainId.MATIC,
-    logoUrl: assetsPath + '/dai.svg',
+    logoUrl: tokenIconsPath + '/dai.svg',
     name: 'DAI',
   },
   // [tokenAddresses[ChainId.MATIC].ETH]: {
   //   address: tokenAddresses[ChainId.MATIC].ETH,
   //   chainId: ChainId.MATIC,
-  //   logoUrl: assetsPath + '/eth.svg',
+  //   logoUrl: tokenIconsPath + '/eth.svg',
   //   name: 'ETH',
   // },
   [tokenAddresses[ChainId.MATIC].FEI_USD]: {
     address: tokenAddresses[ChainId.MATIC].FEI_USD,
     chainId: ChainId.MATIC,
-    logoUrl: assetsPath + '/fei-usd.svg',
+    logoUrl: tokenIconsPath + '/fei-usd.svg',
     name: 'Fei USD',
   },
   // [tokenAddresses[ChainId.MATIC].NEAR]: {
@@ -139,52 +145,58 @@ const tokenDataByAddress = {
   //   logoUrl: null,
   //   name: 'NEAR',
   // },
+  [tokenAddresses[ChainId.MATIC].NEUR]: {
+    address: tokenAddresses[ChainId.MATIC].NEUR,
+    chainId: ChainId.MATIC,
+    logoUrl: tokenIconsPath + '/neur.svg',
+    name: 'NEUR',
+  },
   [tokenAddresses[ChainId.MATIC].PICKLE]: {
     address: tokenAddresses[ChainId.MATIC].PICKLE,
     chainId: ChainId.MATIC,
-    logoUrl: assetsPath + '/pickle.svg',
+    logoUrl: tokenIconsPath + '/pickle.svg',
     name: 'Pickle',
   },
   [tokenAddresses[ChainId.MATIC].REN_BTC]: {
     address: tokenAddresses[ChainId.MATIC].REN_BTC,
     chainId: ChainId.MATIC,
-    logoUrl: assetsPath + '/renbtc.svg',
+    logoUrl: tokenIconsPath + '/renbtc.svg',
     name: 'renBTC',
   },
   // [tokenAddresses[ChainId.MATIC].ST_ETH]: {
   //   address: tokenAddresses[ChainId.MATIC].ST_ETH,
   //   chainId: ChainId.MATIC,
-  //   logoUrl: assetsPath + '/stake-ether.svg',
+  //   logoUrl: tokenIconsPath + '/stake-ether.svg',
   //   name: 'stETH',
   // },
   // [tokenAddresses[ChainId.MATIC].TRIBE]: {
   //   address: tokenAddresses[ChainId.MATIC].TRIBE,
   //   chainId: ChainId.MATIC,
-  //   logoUrl: assetsPath + '/tribe.svg',
+  //   logoUrl: tokenIconsPath + '/tribe.svg',
   //   name: 'Tribe',
   // },
   [tokenAddresses[ChainId.MATIC].USDC]: {
     address: tokenAddresses[ChainId.MATIC].USDC,
     chainId: ChainId.MATIC,
-    logoUrl: assetsPath + '/usdc.svg',
+    logoUrl: tokenIconsPath + '/usdc.svg',
     name: 'USDC (PoS)',
   },
   [tokenAddresses[ChainId.MATIC].USDT]: {
     address: tokenAddresses[ChainId.MATIC].USDT,
     chainId: ChainId.MATIC,
-    logoUrl: assetsPath + '/usdt.svg',
+    logoUrl: tokenIconsPath + '/usdt.svg',
     name: 'USDT',
   },
   [tokenAddresses[ChainId.MATIC].WBTC]: {
     address: tokenAddresses[ChainId.MATIC].WBTC,
     chainId: ChainId.MATIC,
-    logoUrl: assetsPath + '/wbtc.svg',
+    logoUrl: tokenIconsPath + '/wbtc.svg',
     name: 'WBTC',
   },
   [tokenAddresses[ChainId.MATIC].WETH]: {
     address: tokenAddresses[ChainId.MATIC].WETH,
     chainId: ChainId.MATIC,
-    logoUrl: assetsPath + '/weth.svg',
+    logoUrl: tokenIconsPath + '/weth.svg',
     name: 'WETH',
   },
 }
