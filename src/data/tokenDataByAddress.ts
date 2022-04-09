@@ -2,7 +2,7 @@ import { ChainId } from '../constants'
 import tokenAddresses from '../data/tokenAddresses'
 
 const tokenIconsPath =
-  'https://raw.githubusercontent.com/neuron-fund/token-data-shipper/v1/assets/token-icons'
+  'https://raw.githubusercontent.com/neuron-fund/token-data-shipper/master/assets/token-icons'
 
 const tokenDataByAddress = {
   // MAINNET

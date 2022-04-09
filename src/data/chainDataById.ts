@@ -2,7 +2,7 @@ import { ChainId } from '../constants'
 import { ChainData } from '../types'
 
 const chainIconsPath =
-  'https://raw.githubusercontent.com/neuron-fund/token-data-shipper/v1/assets/chain-icons'
+  'https://raw.githubusercontent.com/neuron-fund/token-data-shipper/master/assets/chain-icons'
 
 const chainDataById: Record<ChainId, ChainData> = {
   [ChainId.MAINNET]: {
