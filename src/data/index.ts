@@ -1,3 +1,4 @@
-export { default as chainDataById } from './chainDataById'
+export { default as chainData } from './chainData'
+export { default as poolAddresses } from './tokenAddresses'
 export { default as tokenAddresses } from './tokenAddresses'
-export { default as tokenDataByAddress } from './tokenDataByAddress'
+export { default as tokenData } from './tokenData'
