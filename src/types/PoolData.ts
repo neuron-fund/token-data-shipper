@@ -1,4 +1,7 @@
+import ChainId from '../constants/ChainId'
+
 type PoolData = {
+  chainId: ChainId
   gaugeAddress: string
   iconUrl: string // ToDo: Use token address instead of token icon directly.
   inputAssetsNames: string

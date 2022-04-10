@@ -1,5 +1,5 @@
-import { ChainId } from '../constants'
-import { PoolData } from '../types'
+import ChainId from '../constants/ChainId'
+import PoolData from '../types/PoolData'
 import poolAddresses from './poolAddresses'
 
 const tokenIconsPath =
@@ -8,6 +8,7 @@ const tokenIconsPath =
 const poolData: Record<ChainId, Record<string, PoolData>> = {
   [ChainId.MAINNET]: {
     [poolAddresses[ChainId.MAINNET].CURVE_THREE_CRV]: {
+      chainId: ChainId.MAINNET,
       iconUrl: tokenIconsPath + '/crv.svg',
       inputAssetsNames: '3Crv',
       inputTokenName: '3Crv',
@@ -20,6 +21,7 @@ const poolData: Record<ChainId, Record<string, PoolData>> = {
       strategyAddress: '0x9B2dA857A28AD376A3352b4282e60566bAb29710', // ToDo: Replace with constant.
     },
     [poolAddresses[ChainId.MAINNET].CURVE_REN_CRV]: {
+      chainId: ChainId.MAINNET,
       iconUrl: tokenIconsPath + '/crv.svg',
       inputAssetsNames: 'crvRenWBTC',
       inputTokenName: 'crvRenWBTC',
@@ -32,6 +34,7 @@ const poolData: Record<ChainId, Record<string, PoolData>> = {
       strategyAddress: '0xeFaEbee13d358729f319aD54b396A2Daa9127a69', // ToDo: Replace with constant.
     },
     [poolAddresses[ChainId.MAINNET].CURVE_STE_CRV]: {
+      chainId: ChainId.MAINNET,
       iconUrl: tokenIconsPath + '/crv.svg',
       inputAssetsNames: 'steCRV',
       inputTokenName: 'steCRV',
@@ -44,6 +47,7 @@ const poolData: Record<ChainId, Record<string, PoolData>> = {
       strategyAddress: '0x0B5053D8164ec0a6085880e67aC790709d1893F5', // ToDo: Replace with constant.
     },
     [poolAddresses[ChainId.MAINNET].FEI_TRIBE_LP]: {
+      chainId: ChainId.MAINNET,
       iconUrl: tokenIconsPath + '/fei-usd.svg',
       inputAssetsNames: 'UNI FEI/TRIBE',
       inputTokenName: 'UNI-V2',
@@ -57,6 +61,7 @@ const poolData: Record<ChainId, Record<string, PoolData>> = {
       strategyAddress: '0x70a1aE76d37bADe6f051E769962c127EFbCC14Ca', // ToDo: Replace with constant.
     },
     [poolAddresses[ChainId.MAINNET].SUSHI_DOUBLE_ETH_ALCHEMIX_LP]: {
+      chainId: ChainId.MAINNET,
       iconUrl: tokenIconsPath + '/alchemix.svg',
       inputAssetsNames: 'SLP ETH/ALCX',
       inputTokenName: 'SLP',
@@ -70,6 +75,7 @@ const poolData: Record<ChainId, Record<string, PoolData>> = {
       strategyAddress: '0xf237D7aCF377952E1B945E7F94a37ecF270e902E', // ToDo: Replace with constant.
     },
     [poolAddresses[ChainId.MAINNET].SUSHI_DOUBLE_ETH_CONVEX_LP]: {
+      chainId: ChainId.MAINNET,
       iconUrl: tokenIconsPath + '/alchemix.svg',
       inputAssetsNames: 'SLP ETH/CVX',
       inputTokenName: 'SLP',
@@ -83,6 +89,7 @@ const poolData: Record<ChainId, Record<string, PoolData>> = {
       strategyAddress: '0x49CA79943AB41963758D24f9cacF91561a8C3505', // ToDo: Replace with constant.
     },
     [poolAddresses[ChainId.MAINNET].SUSHI_DOUBLE_ETH_PICKLE_LP]: {
+      chainId: ChainId.MAINNET,
       iconUrl: tokenIconsPath + '/alchemix.svg',
       inputAssetsNames: 'SLP ETH/PICKLE',
       inputTokenName: 'SLP',
@@ -98,6 +105,7 @@ const poolData: Record<ChainId, Record<string, PoolData>> = {
   },
   [ChainId.MATIC]: {
     [poolAddresses[ChainId.MATIC].CURVE_AM_THREE_CRV]: {
+      chainId: ChainId.MATIC,
       iconUrl: tokenIconsPath + '/crv.svg',
       inputAssetsNames: 'am3CRV',
       inputTokenName: 'am3CRV',
@@ -110,6 +118,7 @@ const poolData: Record<ChainId, Record<string, PoolData>> = {
       strategyAddress: '0x17A53f3Fd97232816ff3E1A8cB10Fdf963d71bFa', // ToDo: Replace with constant.
     },
     [poolAddresses[ChainId.MATIC].CURVE_REN_BTC]: {
+      chainId: ChainId.MATIC,
       iconUrl: tokenIconsPath + '/crv.svg',
       inputAssetsNames: 'btcCRV',
       inputTokenName: 'btcCRV',
@@ -122,6 +131,7 @@ const poolData: Record<ChainId, Record<string, PoolData>> = {
       strategyAddress: '0x9B2dA857A28AD376A3352b4282e60566bAb29710', // ToDo: Replace with constant.
     },
     [poolAddresses[ChainId.MATIC].QUICKSWAP_DAI_USDC_LP]: {
+      chainId: ChainId.MATIC,
       iconUrl: tokenIconsPath + '/quick-swap.svg',
       inputAssetsNames: 'QUICK DAI/USDC',
       inputTokenName: 'UNI-V2',
@@ -135,6 +145,7 @@ const poolData: Record<ChainId, Record<string, PoolData>> = {
       strategyAddress: '0xB87355b1a61bbDC4370Fb57334f00Cf9B32FB8a8', // ToDo: Replace with constant.
     },
     [poolAddresses[ChainId.MATIC].QUICKSWAP_USDC_USDT_LP]: {
+      chainId: ChainId.MATIC,
       iconUrl: tokenIconsPath + '/quick-swap.svg',
       inputAssetsNames: 'QUICK USDC/USDT',
       inputTokenName: 'UNI-V2',
@@ -148,6 +159,7 @@ const poolData: Record<ChainId, Record<string, PoolData>> = {
       strategyAddress: '0x0B5053D8164ec0a6085880e67aC790709d1893F5', // ToDo: Replace with constant.
     },
     [poolAddresses[ChainId.MATIC].QUICKSWAP_MIMATIC_USDC_LP]: {
+      chainId: ChainId.MATIC,
       iconUrl: tokenIconsPath + '/quick-swap.svg',
       inputAssetsNames: 'QUICK MIMATIC/USDC',
       inputTokenName: 'UNI-V2',
@@ -161,6 +173,7 @@ const poolData: Record<ChainId, Record<string, PoolData>> = {
       strategyAddress: '0x70a1aE76d37bADe6f051E769962c127EFbCC14Ca', // ToDo: Replace with constant.
     },
     [poolAddresses[ChainId.MATIC].QUICKSWAP_WBTC_ETH_LP]: {
+      chainId: ChainId.MATIC,
       iconUrl: tokenIconsPath + '/quick-swap.svg',
       inputAssetsNames: 'QUICK WBTC/ETH',
       inputTokenName: 'UNI-V2',
@@ -174,6 +187,7 @@ const poolData: Record<ChainId, Record<string, PoolData>> = {
       strategyAddress: '0xf237D7aCF377952E1B945E7F94a37ecF270e902E', // ToDo: Replace with constant.
     },
     [poolAddresses[ChainId.MATIC].QUICKSWAP_WMATIC_ETH_LP]: {
+      chainId: ChainId.MATIC,
       iconUrl: tokenIconsPath + '/quick-swap.svg',
       inputAssetsNames: 'QUICK WMATIC/ETH',
       inputTokenName: 'UNI-V2',
