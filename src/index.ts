@@ -1,4 +1,4 @@
-export { getChainData, getTokenData } from './utils'
+export { getChainData, getPoolData, getTokenData } from './utils'
 
 export { ChainId } from './constants'
 
