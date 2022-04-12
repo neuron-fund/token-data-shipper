@@ -9,7 +9,7 @@ const getPoolData = ({
   chainId: ChainId
   poolAddress: string
 }): PoolData | undefined => {
-  return poolData[chainId][poolAddress]
+  return poolData[chainId]?.[poolAddress]
 }
 
 export default getPoolData
