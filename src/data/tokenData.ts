@@ -51,7 +51,7 @@ const tokenData = {
   [tokenAddresses[ChainId.MAINNET].ONE_INCH]: {
     address: tokenAddresses[ChainId.MAINNET].ONE_INCH,
     chainId: ChainId.MAINNET,
-    logoUrl: tokenIconsPath + '/1inch.svg',
+    logoUrl: tokenIconsPath + '/1inch.webp',
     name: '1INCH',
   },
   [tokenAddresses[ChainId.MAINNET].PICKLE]: {
@@ -148,7 +148,7 @@ const tokenData = {
   [tokenAddresses[ChainId.MATIC].ONE_INCH]: {
     address: tokenAddresses[ChainId.MATIC].ONE_INCH,
     chainId: ChainId.MATIC,
-    logoUrl: tokenIconsPath + '/1inch.svg',
+    logoUrl: tokenIconsPath + '/1inch.webp',
     name: '1INCH',
   },
   [tokenAddresses[ChainId.MATIC].PICKLE]: {
