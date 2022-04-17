@@ -4,7 +4,7 @@ import { ChainData } from '../types'
 const chainIconsPath =
   'https://raw.githubusercontent.com/neuron-fund/token-data-shipper/master/assets/chain-icons'
 
-const chainData: Record<ChainId, ChainData> = {
+const chainsData: Record<ChainId, ChainData> = {
   [ChainId.MAINNET]: {
     id: ChainId.MAINNET,
     logoUrl: chainIconsPath + '/mainnet.svg',
@@ -21,4 +21,4 @@ const chainData: Record<ChainId, ChainData> = {
   },
 }
 
-export default chainData
+export default chainsData

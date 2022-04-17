@@ -1,9 +1,9 @@
 import { ChainId } from '../constants'
-import { chainData } from '../data'
+import { chainsData } from '../data'
 import { ChainData } from '../types'
 
 const getTokenData = ({ chainId }: { chainId: ChainId }): ChainData => {
-  return chainData[chainId]
+  return chainsData[chainId]
 }
 
 export default getTokenData
