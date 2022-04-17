@@ -1,5 +1,5 @@
 export { default as chainsData } from './chainsData'
 export { default as poolAddresses } from './poolAddresses'
-export { default as poolData } from './poolData'
+export { default as poolsData } from './poolsData'
 export { default as tokenAddresses } from './tokenAddresses'
 export { default as tokensData } from './tokensData'

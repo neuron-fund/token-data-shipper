@@ -1,5 +1,5 @@
 import ChainId from '../constants/ChainId'
-import poolData from '../data/poolData'
+import poolsData from '../data/poolsData'
 import PoolData from '../types/PoolData'
 
 const getPoolData = ({
@@ -9,7 +9,7 @@ const getPoolData = ({
   chainId: ChainId
   poolAddress: string
 }): PoolData | undefined => {
-  return poolData[chainId]?.[poolAddress]
+  return poolsData[chainId]?.[poolAddress]
 }
 
 export default getPoolData

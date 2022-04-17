@@ -5,7 +5,7 @@ import poolAddresses from './poolAddresses'
 const tokenIconsPath =
   'https://raw.githubusercontent.com/neuron-fund/token-data-shipper/master/assets/token-icons'
 
-const poolData: Record<ChainId, Record<string, PoolData>> = {
+const poolsData: Record<ChainId, Record<string, PoolData>> = {
   [ChainId.MAINNET]: {
     [poolAddresses[ChainId.MAINNET].CURVE_THREE_CRV]: {
       chainId: ChainId.MAINNET,
@@ -217,4 +217,4 @@ const poolData: Record<ChainId, Record<string, PoolData>> = {
   },
 }
 
-export default poolData
+export default poolsData
