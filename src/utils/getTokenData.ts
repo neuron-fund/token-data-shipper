@@ -1,4 +1,4 @@
-import { tokenData } from '../data'
+import { tokensData } from '../data'
 import { TokenData } from '../types'
 
 const getTokenData = ({
@@ -6,7 +6,7 @@ const getTokenData = ({
 }: {
   tokenAddress: string
 }): TokenData | undefined => {
-  return tokenData[tokenAddress]
+  return tokensData[tokenAddress]
 }
 
 export default getTokenData

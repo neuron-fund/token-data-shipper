@@ -4,7 +4,7 @@ import tokenAddresses from '../data/tokenAddresses'
 const tokenIconsPath =
   'https://raw.githubusercontent.com/neuron-fund/token-data-shipper/master/assets/token-icons'
 
-const tokenData = {
+const tokensData = {
   // MAINNET
   [tokenAddresses[ChainId.MAINNET].ALCHEMIX]: {
     address: tokenAddresses[ChainId.MAINNET].ALCHEMIX,
@@ -201,4 +201,4 @@ const tokenData = {
   },
 }
 
-export default tokenData
+export default tokensData
