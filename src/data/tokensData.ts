@@ -81,7 +81,7 @@ const tokensData = {
   [tokenAddresses[ChainId.MAINNET].UNISWAP]: {
     address: tokenAddresses[ChainId.MAINNET].UNISWAP,
     chainId: ChainId.MAINNET,
-    logoUrl: tokenIconsPath + '/uniswap.svg',
+    logoUrl: tokenIconsPath + '/uniswap.png',
     name: 'Uniswap',
   },
   [tokenAddresses[ChainId.MAINNET].USDC]: {
@@ -184,7 +184,7 @@ const tokensData = {
   [tokenAddresses[ChainId.MATIC].UNISWAP]: {
     address: tokenAddresses[ChainId.MATIC].UNISWAP,
     chainId: ChainId.MATIC,
-    logoUrl: tokenIconsPath + '/uniswap.svg',
+    logoUrl: tokenIconsPath + '/uniswap.png',
     name: 'Uniswap (PoS)',
   },
   [tokenAddresses[ChainId.MATIC].USDC]: {
