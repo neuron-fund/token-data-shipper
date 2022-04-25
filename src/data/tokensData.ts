@@ -78,17 +78,17 @@ const tokensData = {
     logoUrl: tokenIconsPath + '/tribe.svg',
     name: 'Tribe',
   },
-  [tokenAddresses[ChainId.MAINNET].USDC]: {
-    address: tokenAddresses[ChainId.MAINNET].USDC,
-    chainId: ChainId.MAINNET,
-    logoUrl: tokenIconsPath + '/usdc.svg',
-    name: 'USDC',
-  },
   [tokenAddresses[ChainId.MAINNET].UNISWAP]: {
     address: tokenAddresses[ChainId.MAINNET].UNISWAP,
     chainId: ChainId.MAINNET,
     logoUrl: tokenIconsPath + '/uniswap.svg',
     name: 'Uniswap',
+  },
+  [tokenAddresses[ChainId.MAINNET].USDC]: {
+    address: tokenAddresses[ChainId.MAINNET].USDC,
+    chainId: ChainId.MAINNET,
+    logoUrl: tokenIconsPath + '/usdc.svg',
+    name: 'USDC',
   },
   [tokenAddresses[ChainId.MAINNET].USDT]: {
     address: tokenAddresses[ChainId.MAINNET].USDT,
