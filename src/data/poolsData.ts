@@ -126,7 +126,7 @@ const poolsData: Record<ChainId, Record<string, PoolData>> = {
       zapperAppId: 'sushiswap',
 
       gaugeAddress: '0x1212121212121212121212121212121212121212',
-      inputTokenAddress: tokenAddresses[ChainId.MAINNET].SUSHISWAP_CONVEX_ETH_LPT, // ToDo: Replace with an actual address.
+      inputTokenAddress: tokenAddresses[ChainId.MAINNET].ONE_INCH, // ToDo: Replace with an actual address.
       inputTokenExchangeUrl:
         'https://app.sushi.com/add/ETH/0x429881672B9AE42b8EbA0E26cD9C73711b891Ca5', // ToDo: Replace with a correct value..
       poolSlug: 'SushiNeurEth',
