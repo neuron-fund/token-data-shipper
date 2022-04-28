@@ -20,6 +20,7 @@ const poolsData: Record<ChainId, Record<string, PoolData>> = {
       inputTokenExchangeUrl: 'https://curve.fi/3pool/deposit',
       poolSlug: 'Curve3Crv',
       strategyAddress: '0x9B2dA857A28AD376A3352b4282e60566bAb29710', // ToDo: Replace with constant.
+      zapperIcon: null,
     },
     [poolAddresses[ChainId.MAINNET].CURVE_REN_CRV]: {
       chainId: ChainId.MAINNET,
@@ -34,6 +35,7 @@ const poolsData: Record<ChainId, Record<string, PoolData>> = {
       inputTokenExchangeUrl: 'https://curve.fi/ren/deposit',
       poolSlug: 'CurveRenCrv',
       strategyAddress: '0xeFaEbee13d358729f319aD54b396A2Daa9127a69', // ToDo: Replace with constant.
+      zapperIcon: null,
     },
     [poolAddresses[ChainId.MAINNET].CURVE_STE_CRV]: {
       chainId: ChainId.MAINNET,
@@ -48,6 +50,7 @@ const poolsData: Record<ChainId, Record<string, PoolData>> = {
       inputTokenExchangeUrl: 'https://curve.fi/steth/deposit',
       poolSlug: 'CurveSteCrv',
       strategyAddress: '0x0B5053D8164ec0a6085880e67aC790709d1893F5', // ToDo: Replace with constant.
+      zapperIcon: null,
     },
     [poolAddresses[ChainId.MAINNET].FEI_TRIBE_LP]: {
       chainId: ChainId.MAINNET,
@@ -63,6 +66,7 @@ const poolsData: Record<ChainId, Record<string, PoolData>> = {
         'https://app.uniswap.org/#/add/v2/0x956f47f50a910163d8bf957cf5846d573e7f87ca/0xc7283b66eb1eb5fb86327f08e1b5816b0720212b',
       poolSlug: 'FeiTribeLp',
       strategyAddress: '0x70a1aE76d37bADe6f051E769962c127EFbCC14Ca', // ToDo: Replace with constant.
+      zapperIcon: null,
     },
     [poolAddresses[ChainId.MAINNET].SUSHI_DOUBLE_ETH_ALCHEMIX_LP]: {
       chainId: ChainId.MAINNET,
@@ -78,6 +82,7 @@ const poolsData: Record<ChainId, Record<string, PoolData>> = {
       inputTokenAddress: '0xC3f279090a47e80990Fe3a9c30d24Cb117EF91a8', // ToDo: Replace with constant.
       poolSlug: 'SushiDoubleEthAlcxLp',
       strategyAddress: '0xf237D7aCF377952E1B945E7F94a37ecF270e902E', // ToDo: Replace with constant.
+      zapperIcon: null,
     },
     [poolAddresses[ChainId.MAINNET].SUSHI_DOUBLE_ETH_CONVEX_LP]: {
       chainId: ChainId.MAINNET,
@@ -93,6 +98,7 @@ const poolsData: Record<ChainId, Record<string, PoolData>> = {
         'https://app.sushi.com/add/0x4e3fbd56cd56c3e72c1403e103b45db9da5b9d2b/ETH',
       poolSlug: 'SushiDoubleEthCvxLp',
       strategyAddress: '0x49CA79943AB41963758D24f9cacF91561a8C3505', // ToDo: Replace with constant.
+      zapperIcon: null,
     },
     [poolAddresses[ChainId.MAINNET].SUSHI_DOUBLE_ETH_PICKLE_LP]: {
       chainId: ChainId.MAINNET,
@@ -108,6 +114,23 @@ const poolsData: Record<ChainId, Record<string, PoolData>> = {
         'https://app.sushi.com/add/ETH/0x429881672B9AE42b8EbA0E26cD9C73711b891Ca5',
       poolSlug: 'SushiDoubleEthPickleLp',
       strategyAddress: '0x14293823B5956c30E79d6669F1C79eb70c2619eB', // ToDo: Replace with constant.
+      zapperIcon: null,
+    },
+    [poolAddresses[ChainId.MAINNET].SUSHI_NEUR]: {
+      chainId: ChainId.MAINNET,
+      iconUrl: tokenIconsPath + '/neur.svg',
+      inputAssetsNames: 'SLP NEUR',
+      inputTokenName: 'SLP',
+      poolAddress: poolAddresses[ChainId.MAINNET].SUSHI_NEUR,
+      zapperAppId: 'sushiswap',
+
+      gaugeAddress: '0x1212121212121212121212121212121212121212',
+      inputTokenAddress: '0x3434343434343434343434343434343434343434', // ToDo: Replace with constant.
+      inputTokenExchangeUrl:
+        'https://app.sushi.com/add/ETH/0x429881672B9AE42b8EbA0E26cD9C73711b891Ca5', // ToDo: Replace with a correct value..
+      poolSlug: 'SushiNeur',
+      strategyAddress: '0x5656565656565656565656565656565656565656', // ToDo: Replace with constant.
+      zapperIcon: '/sushi.png',
     },
   },
   [ChainId.MATIC]: {
@@ -124,6 +147,7 @@ const poolsData: Record<ChainId, Record<string, PoolData>> = {
       inputTokenExchangeUrl: 'https://polygon.curve.fi/aave/deposit',
       poolSlug: 'PolygonCurveAm3Crv',
       strategyAddress: '0x17A53f3Fd97232816ff3E1A8cB10Fdf963d71bFa', // ToDo: Replace with constant.
+      zapperIcon: null,
     },
     [poolAddresses[ChainId.MATIC].CURVE_REN_BTC]: {
       chainId: ChainId.MATIC,
@@ -138,6 +162,7 @@ const poolsData: Record<ChainId, Record<string, PoolData>> = {
       inputTokenExchangeUrl: 'https://polygon.curve.fi/ren/deposit',
       poolSlug: 'PolygonCurveRenBtc',
       strategyAddress: '0x9B2dA857A28AD376A3352b4282e60566bAb29710', // ToDo: Replace with constant.
+      zapperIcon: null,
     },
     [poolAddresses[ChainId.MATIC].QUICKSWAP_DAI_USDC_LP]: {
       chainId: ChainId.MATIC,
@@ -153,6 +178,7 @@ const poolsData: Record<ChainId, Record<string, PoolData>> = {
         'https://quickswap.exchange/#/add/0x2791bca1f2de4661ed88a30c99a7a9449aa84174/0x8f3cf7ad23cd3cadbd9735aff958023239c6a063',
       poolSlug: 'PolygonQuickswapDaiUsdcLp',
       strategyAddress: '0xB87355b1a61bbDC4370Fb57334f00Cf9B32FB8a8', // ToDo: Replace with constant.
+      zapperIcon: null,
     },
     [poolAddresses[ChainId.MATIC].QUICKSWAP_USDC_USDT_LP]: {
       chainId: ChainId.MATIC,
@@ -168,6 +194,7 @@ const poolsData: Record<ChainId, Record<string, PoolData>> = {
         'https://quickswap.exchange/#/add/0x2791bca1f2de4661ed88a30c99a7a9449aa84174/0xc2132d05d31c914a87c6611c10748aeb04b58e8f',
       poolSlug: 'PolygonQuickswapUsdcUsdtLp',
       strategyAddress: '0x0B5053D8164ec0a6085880e67aC790709d1893F5', // ToDo: Replace with constant.
+      zapperIcon: null,
     },
     [poolAddresses[ChainId.MATIC].QUICKSWAP_MIMATIC_USDC_LP]: {
       chainId: ChainId.MATIC,
@@ -183,6 +210,7 @@ const poolsData: Record<ChainId, Record<string, PoolData>> = {
         'https://quickswap.exchange/#/add/0x2791bca1f2de4661ed88a30c99a7a9449aa84174/0xa3fa99a148fa48d14ed51d610c367c61876997f1',
       poolSlug: 'PolygonQuickswapMimaticUsdcLp',
       strategyAddress: '0x70a1aE76d37bADe6f051E769962c127EFbCC14Ca', // ToDo: Replace with constant.
+      zapperIcon: null,
     },
     [poolAddresses[ChainId.MATIC].QUICKSWAP_WBTC_ETH_LP]: {
       chainId: ChainId.MATIC,
@@ -198,6 +226,7 @@ const poolsData: Record<ChainId, Record<string, PoolData>> = {
         'https://quickswap.exchange/#/add/0x1bfd67037b42cf73acf2047067bd4f2c47d9bfd6/0x7ceB23fD6bC0adD59E62ac25578270cFf1b9f619',
       poolSlug: 'PolygonQuickswapWbtcEthLp',
       strategyAddress: '0xf237D7aCF377952E1B945E7F94a37ecF270e902E', // ToDo: Replace with constant.
+      zapperIcon: null,
     },
     [poolAddresses[ChainId.MATIC].QUICKSWAP_WMATIC_ETH_LP]: {
       chainId: ChainId.MATIC,
@@ -213,6 +242,7 @@ const poolsData: Record<ChainId, Record<string, PoolData>> = {
         'https://quickswap.exchange/#/add/0x0d500b1d8e8ef31e21c99d1db9a6444d3adf1270/0x7ceB23fD6bC0adD59E62ac25578270cFf1b9f619',
       poolSlug: 'PolygonQuickswapWmaticEthLp',
       strategyAddress: '0xf1fe98A2e16cc9a82dE7b278Bd7209237a0874F0', // ToDo: Replace with constant.
+      zapperIcon: null,
     },
   },
 }

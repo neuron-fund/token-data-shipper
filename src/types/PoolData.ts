@@ -12,6 +12,7 @@ type PoolData = {
   poolSlug: string // ToDo: Now it is used on frontend to get Apy by slug. Replace with poolAddress.
   strategyAddress: string
   zapperAppId: string
+  zapperIcon: string | null
 }
 
 export default PoolData
