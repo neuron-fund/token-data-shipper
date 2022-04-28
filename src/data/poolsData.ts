@@ -1,6 +1,7 @@
 import ChainId from '../constants/ChainId'
 import PoolData from '../types/PoolData'
 import poolAddresses from './poolAddresses'
+import tokenAddresses from './tokenAddresses'
 
 const tokenIconsPath =
   'https://raw.githubusercontent.com/neuron-fund/token-data-shipper/master/assets/token-icons'
@@ -93,7 +94,7 @@ const poolsData: Record<ChainId, Record<string, PoolData>> = {
       zapperAppId: 'sushiswap',
 
       gaugeAddress: '0xf1d2A7B230876eb84164Db9cE942b84AA0BEa30F',
-      inputTokenAddress: '0x05767d9EF41dC40689678fFca0608878fb3dE906', // ToDo: Replace with constant.
+      inputTokenAddress: tokenAddresses[ChainId.MAINNET].SUSHISWAP_CONVEX_ETH_LPT,
       inputTokenExchangeUrl:
         'https://app.sushi.com/add/0x4e3fbd56cd56c3e72c1403e103b45db9da5b9d2b/ETH',
       poolSlug: 'SushiDoubleEthCvxLp',
@@ -119,16 +120,16 @@ const poolsData: Record<ChainId, Record<string, PoolData>> = {
     [poolAddresses[ChainId.MAINNET].SUSHI_NEUR_ETH]: {
       chainId: ChainId.MAINNET,
       iconUrl: tokenIconsPath + '/neur.svg',
-      inputAssetsNames: 'SLP NEUR',
+      inputAssetsNames: 'SLP NEUR/ETH',
       inputTokenName: 'SLP',
       poolAddress: poolAddresses[ChainId.MAINNET].SUSHI_NEUR_ETH,
       zapperAppId: 'sushiswap',
 
       gaugeAddress: '0x1212121212121212121212121212121212121212',
-      inputTokenAddress: '0x3434343434343434343434343434343434343434', // ToDo: Replace with constant.
+      inputTokenAddress: tokenAddresses[ChainId.MAINNET].SUSHISWAP_CONVEX_ETH_LPT, // ToDo: Replace with an actual address.
       inputTokenExchangeUrl:
         'https://app.sushi.com/add/ETH/0x429881672B9AE42b8EbA0E26cD9C73711b891Ca5', // ToDo: Replace with a correct value..
-      poolSlug: 'SushiNeur',
+      poolSlug: 'SushiNeurEth',
       strategyAddress: '0x5656565656565656565656565656565656565656', // ToDo: Replace with constant.
       zapperIcon: tokenIconsPath + '/sushi.png',
     },
