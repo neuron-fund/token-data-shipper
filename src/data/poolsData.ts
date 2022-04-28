@@ -130,7 +130,7 @@ const poolsData: Record<ChainId, Record<string, PoolData>> = {
         'https://app.sushi.com/add/ETH/0x429881672B9AE42b8EbA0E26cD9C73711b891Ca5', // ToDo: Replace with a correct value..
       poolSlug: 'SushiNeur',
       strategyAddress: '0x5656565656565656565656565656565656565656', // ToDo: Replace with constant.
-      zapperIcon: '/sushi.png',
+      zapperIcon: tokenIconsPath + '/sushi.png',
     },
   },
   [ChainId.MATIC]: {
