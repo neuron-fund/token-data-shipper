@@ -78,11 +78,11 @@ const tokensData = {
     logoUrl: tokenIconsPath + '/tribe.svg',
     name: 'Tribe',
   },
-  [tokenAddresses[ChainId.MAINNET].UNISWAP]: {
-    address: tokenAddresses[ChainId.MAINNET].UNISWAP,
+  [tokenAddresses[ChainId.MAINNET].UNI]: {
+    address: tokenAddresses[ChainId.MAINNET].UNI,
     chainId: ChainId.MAINNET,
-    logoUrl: tokenIconsPath + '/uniswap.png',
-    name: 'Uniswap',
+    logoUrl: tokenIconsPath + '/uni.png',
+    name: 'UNI',
   },
   [tokenAddresses[ChainId.MAINNET].USDC]: {
     address: tokenAddresses[ChainId.MAINNET].USDC,
@@ -181,11 +181,11 @@ const tokensData = {
   //   logoUrl: tokenIconsPath + '/tribe.svg',
   //   name: 'Tribe',
   // },
-  [tokenAddresses[ChainId.MATIC].UNISWAP]: {
-    address: tokenAddresses[ChainId.MATIC].UNISWAP,
+  [tokenAddresses[ChainId.MATIC].UNI]: {
+    address: tokenAddresses[ChainId.MATIC].UNI,
     chainId: ChainId.MATIC,
-    logoUrl: tokenIconsPath + '/uniswap.png',
-    name: 'Uniswap (PoS)',
+    logoUrl: tokenIconsPath + '/uni.png',
+    name: 'UNI (PoS)',
   },
   [tokenAddresses[ChainId.MATIC].USDC]: {
     address: tokenAddresses[ChainId.MATIC].USDC,
