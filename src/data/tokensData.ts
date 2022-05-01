@@ -21,7 +21,7 @@ const tokensData = {
   [tokenAddresses[ChainId.MAINNET].THREE_CRV_DAI_USDC_USDT]: {
     address: tokenAddresses[ChainId.MAINNET].THREE_CRV_DAI_USDC_USDT,
     chainId: ChainId.MAINNET,
-    logoUrl: tokenIconsPath + '/three-crv.webp',
+    logoUrl: tokenIconsPath + '/crv.webp',
     name: 'DAI/USDC/USDT (3Crv)',
   },
   [tokenAddresses[ChainId.MAINNET].DAI]: {
