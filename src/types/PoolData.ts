@@ -1,4 +1,4 @@
-import ChainId from '../constants/ChainId'
+import ChainId from '../data/ChainId'
 
 type PoolData = {
   chainId: ChainId

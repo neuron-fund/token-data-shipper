@@ -1,9 +1,9 @@
-import { ChainId } from '../constants'
+import ChainId from '../data/ChainId'
 
 type TokenData = {
   address: string
   chainId: ChainId
-  logoUrl: string | null
+  logoUrl: string
   name: string
 }
 

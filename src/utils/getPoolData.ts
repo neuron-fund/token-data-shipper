@@ -1,4 +1,4 @@
-import ChainId from '../constants/ChainId'
+import ChainId from '../data/ChainId'
 import poolsData from '../data/poolsData'
 import PoolData from '../types/PoolData'
 
