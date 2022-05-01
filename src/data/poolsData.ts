@@ -1,5 +1,5 @@
-import ChainId from '../constants/ChainId'
 import PoolData from '../types/PoolData'
+import ChainId from './ChainId'
 import poolAddresses from './poolAddresses'
 import tokenAddresses from './tokenAddresses'
 
@@ -10,7 +10,7 @@ const poolsData: Record<ChainId, Record<string, PoolData>> = {
   [ChainId.MAINNET]: {
     [poolAddresses[ChainId.MAINNET].CURVE_THREE_CRV]: {
       chainId: ChainId.MAINNET,
-      iconUrl: tokenIconsPath + '/crv.svg',
+      iconUrl: tokenIconsPath + '/crv.webp',
       inputAssetsNames: 'DAI/USDC/USDT (3Crv)',
       inputTokenName: '3Crv',
       poolAddress: poolAddresses[ChainId.MAINNET].CURVE_THREE_CRV,
@@ -25,7 +25,7 @@ const poolsData: Record<ChainId, Record<string, PoolData>> = {
     },
     [poolAddresses[ChainId.MAINNET].CURVE_REN_CRV]: {
       chainId: ChainId.MAINNET,
-      iconUrl: tokenIconsPath + '/crv.svg',
+      iconUrl: tokenIconsPath + '/crv.webp',
       inputAssetsNames: 'crvRenWBTC',
       inputTokenName: 'crvRenWBTC',
       poolAddress: poolAddresses[ChainId.MAINNET].CURVE_REN_CRV,
@@ -40,7 +40,7 @@ const poolsData: Record<ChainId, Record<string, PoolData>> = {
     },
     [poolAddresses[ChainId.MAINNET].CURVE_STE_CRV]: {
       chainId: ChainId.MAINNET,
-      iconUrl: tokenIconsPath + '/crv.svg',
+      iconUrl: tokenIconsPath + '/crv.webp',
       inputAssetsNames: 'steCRV',
       inputTokenName: 'steCRV',
       poolAddress: poolAddresses[ChainId.MAINNET].CURVE_STE_CRV,
@@ -137,7 +137,7 @@ const poolsData: Record<ChainId, Record<string, PoolData>> = {
   [ChainId.MATIC]: {
     [poolAddresses[ChainId.MATIC].CURVE_AM_THREE_CRV]: {
       chainId: ChainId.MATIC,
-      iconUrl: tokenIconsPath + '/crv.svg',
+      iconUrl: tokenIconsPath + '/crv.webp',
       inputAssetsNames: 'am3CRV',
       inputTokenName: 'am3CRV',
       poolAddress: poolAddresses[ChainId.MATIC].CURVE_AM_THREE_CRV,
@@ -152,7 +152,7 @@ const poolsData: Record<ChainId, Record<string, PoolData>> = {
     },
     [poolAddresses[ChainId.MATIC].CURVE_REN_BTC]: {
       chainId: ChainId.MATIC,
-      iconUrl: tokenIconsPath + '/crv.svg',
+      iconUrl: tokenIconsPath + '/crv.webp',
       inputAssetsNames: 'btcCRV',
       inputTokenName: 'btcCRV',
       poolAddress: poolAddresses[ChainId.MATIC].CURVE_REN_BTC,

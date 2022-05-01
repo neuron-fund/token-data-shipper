@@ -1,5 +1,5 @@
-import { ChainId } from '../constants'
 import { ChainData } from '../types'
+import ChainId from './ChainId'
 
 const chainIconsPath =
   'https://raw.githubusercontent.com/neuron-fund/token-data-shipper/master/assets/chain-icons'

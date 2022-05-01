@@ -1,4 +1,4 @@
-import { ChainId } from '../constants'
+import ChainId from './ChainId'
 
 const poolAddresses = {
   [ChainId.MAINNET]: {
