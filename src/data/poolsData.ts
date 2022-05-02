@@ -11,7 +11,7 @@ const poolsData: Record<ChainId, Record<string, PoolData>> = {
     [poolAddresses[ChainId.MAINNET].CURVE_THREE_CRV]: {
       chainId: ChainId.MAINNET,
       iconUrl: tokenIconsPath + '/crv.webp',
-      inputAssetsNames: 'DAI/USDC/USDT (3Crv)',
+      inputAssetsNames: 'Curve LP 3Crv',
       inputTokenName: '3Crv',
       poolAddress: poolAddresses[ChainId.MAINNET].CURVE_THREE_CRV,
       zapperAppId: 'curve',
