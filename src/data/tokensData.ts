@@ -18,11 +18,11 @@ const tokensData = {
     logoUrl: tokenIconsPath + '/convex.svg',
     name: 'Convex',
   },
-  [tokenAddresses[ChainId.MAINNET].THREE_CRV_DAI_USDC_USDT]: {
-    address: tokenAddresses[ChainId.MAINNET].THREE_CRV_DAI_USDC_USDT,
+  [tokenAddresses[ChainId.MAINNET].CURVE_LP_THREE_CRV]: {
+    address: tokenAddresses[ChainId.MAINNET].CURVE_LP_THREE_CRV,
     chainId: ChainId.MAINNET,
     logoUrl: tokenIconsPath + '/crv.webp',
-    name: 'DAI/USDC/USDT (3Crv)',
+    name: 'Curve LP 3CRV',
   },
   [tokenAddresses[ChainId.MAINNET].DAI]: {
     address: tokenAddresses[ChainId.MAINNET].DAI,

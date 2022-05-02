@@ -11,13 +11,13 @@ const poolsData: Record<ChainId, Record<string, PoolData>> = {
     [poolAddresses[ChainId.MAINNET].CURVE_THREE_CRV]: {
       chainId: ChainId.MAINNET,
       iconUrl: tokenIconsPath + '/crv.webp',
-      inputAssetsNames: 'Curve LP 3Crv',
+      inputAssetsNames: 'Curve LP 3CRV',
       inputTokenName: '3Crv',
       poolAddress: poolAddresses[ChainId.MAINNET].CURVE_THREE_CRV,
       zapperAppId: 'curve',
 
       gaugeAddress: '0x4bBea3ff3b3f2Cdd822cFa1b0aeB174f9b132a9f',
-      inputTokenAddress: tokenAddresses[ChainId.MAINNET].THREE_CRV_DAI_USDC_USDT,
+      inputTokenAddress: tokenAddresses[ChainId.MAINNET].CURVE_LP_THREE_CRV,
       inputTokenExchangeUrl: 'https://curve.fi/3pool/deposit',
       poolSlug: 'Curve3Crv',
       strategyAddress: '0x9B2dA857A28AD376A3352b4282e60566bAb29710', // ToDo: Replace with constant.
