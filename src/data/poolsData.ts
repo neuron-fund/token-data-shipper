@@ -117,6 +117,21 @@ const poolsData: Record<ChainId, Record<string, PoolData>> = {
       strategyAddress: '0x14293823B5956c30E79d6669F1C79eb70c2619eB', // ToDo: Replace with constant.
       zapperIcon: null,
     },
+    [poolAddresses[ChainId.MAINNET].SUSHI_NEUR_ETH]: {
+      chainId: ChainId.MAINNET,
+      iconUrl: tokenIconsPath + '/neur.svg',
+      inputAssetsNames: 'SLP NEUR/ETH',
+      inputTokenName: 'SLP',
+      poolAddress: poolAddresses[ChainId.MAINNET].SUSHI_NEUR_ETH,
+      zapperAppId: 'sushiswap',
+
+      gaugeAddress: '0x8F388335f017e976f0FcB3714c0D9F612C8902b7',
+      inputTokenAddress: 'TODO_USE_ACTUAL_ADDRESS',
+      inputTokenExchangeUrl: 'TODO_USE_ACTUAL_ADDRESS',
+      poolSlug: 'SushiNeurEth',
+      strategyAddress: 'TODO_USE_ACTUAL_ADDRESS',
+      zapperIcon: null,
+    },
   },
   [ChainId.MATIC]: {
     [poolAddresses[ChainId.MATIC].CURVE_AM_THREE_CRV]: {
