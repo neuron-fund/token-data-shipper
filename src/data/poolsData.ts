@@ -122,11 +122,11 @@ const poolsData: Record<ChainId, Record<string, PoolData>> = {
       iconUrl: tokenIconsPath + '/neur.svg',
       inputAssetsNames: 'SLP NEUR/ETH',
       inputTokenName: 'SLP',
-      poolAddress: poolAddresses[ChainId.MAINNET].SUSHI_NEUR_ETH,
+      poolAddress: poolAddresses[ChainId.MAINNET].SUSHI_NEUR_ETH, // It is incorrect to define poolAddress.
       zapperAppId: 'sushiswap',
 
       gaugeAddress: '0x8F388335f017e976f0FcB3714c0D9F612C8902b7',
-      inputTokenAddress: 'TODO_USE_ACTUAL_ADDRESS',
+      inputTokenAddress: tokenAddresses[ChainId.MAINNET].SUSHISWAP_NEUR_ETH,
       inputTokenExchangeUrl: 'TODO_USE_ACTUAL_ADDRESS',
       poolSlug: 'SushiNeurEth',
       strategyAddress: 'TODO_USE_ACTUAL_ADDRESS',
