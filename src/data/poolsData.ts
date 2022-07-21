@@ -127,7 +127,7 @@ const poolsData: Record<ChainId, Record<string, PoolData>> = {
 
       gaugeAddress: '0x8F388335f017e976f0FcB3714c0D9F612C8902b7',
       inputTokenAddress: tokenAddresses[ChainId.MAINNET].SUSHISWAP_NEUR_ETH,
-      inputTokenExchangeUrl: 'TODO_USE_ACTUAL_ADDRESS',
+      inputTokenExchangeUrl: 'https://www.google.com/',
       poolSlug: 'SushiNeurEth',
       strategyAddress: 'TODO_USE_ACTUAL_ADDRESS',
       zapperIcon: null,
