@@ -84,6 +84,12 @@ const tokensData = {
     logoUrl: tokenIconsPath + '/sushi.png',
     name: 'SLP CVX/ETH',
   },
+  [tokenAddresses[ChainId.MAINNET].SUSHISWAP_NEUR_ETH]: {
+    address: tokenAddresses[ChainId.MAINNET].SUSHISWAP_NEUR_ETH,
+    chainId: ChainId.MAINNET,
+    logoUrl: tokenIconsPath + '/sushi.png',
+    name: 'SLP NEUR/ETH',
+  },
   [tokenAddresses[ChainId.MAINNET].TRIBE]: {
     address: tokenAddresses[ChainId.MAINNET].TRIBE,
     chainId: ChainId.MAINNET,
